@@ -1016,6 +1016,28 @@
                     "action": "onOneShotVibration",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "31c4f108-b544-41c7-bca5-90d20efc44e1",
+                    "path": "<Touchscreen>/touch0/tap",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "onOneShotVibration",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "407cc200-3d50-4dff-bbda-4fea1bd71d1b",
+                    "path": "<Keyboard>/h",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "onOneShotVibration",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }
