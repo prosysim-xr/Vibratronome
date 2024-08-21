@@ -17,10 +17,13 @@ public class InputManager : MonoBehaviour
         else {
             Destroy(this);
         }
+    }
+    private void OnEnable() {
         inputActionMap = inputActionAsset.FindActionMap("Haptics");
         onOneShotVibration = inputActionMap.FindAction("onOneShotVibration");
+        onOneShotVibration.Enable();
     }
-    private void Start() {
-        
+    private void OnDisable() {
+        onOneShotVibration.Disable();
     }
 }
